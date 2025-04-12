@@ -1,0 +1,6 @@
+path: D:\Vehicle Detection\vechile.v2i.yolov8  # Root directory of your dataset
+train: D:\Vehicle Detection\vechile.v2i.yolov8\train # Path to training images
+val: D:\Vehicle Detection\vechile.v2i.yolov8\valid     # Path to validation images
+test: D:\Vehicle Detection\vechile.v2i.yolov8\test   # Path to test images (optional)
+nc: 2               # Number of classes (vehicles in your case)
+names: ["car", "truck"]  # Names of classes
